@@ -19,7 +19,7 @@ You use this just like the regular CFTEXTAREA tag in Adobe ColdFusion (http://cf
 
 ##Supported Attributes
 
-name:			{required:true,type:"string"},
+name:			{required:true,type:"string"}, 
 id:      	{required:false,type:"string",default:""},	
 value: 			{required:false,type:"string",default:""},	
 width: 			{required:false,type:"string",default:""}, 
