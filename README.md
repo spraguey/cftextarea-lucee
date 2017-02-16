@@ -9,6 +9,10 @@ Why? I had a set of servers with hundreds of websites on them. They were all bei
 
 This tag will not do richtext="yes" (ckeditor), and it will not do binding with bind="" like the Adobe version.
 
+## Installation
+
+Place textarea.cfc in your library/tag folder. You can do this at the server or context/site level. ('/lucee-server/context/library' for server, or '/WEB-INF/lucee/library' for a single site/context)
+
 ##Usage
 
 You use this just like the regular CFTEXTAREA tag in Adobe ColdFusion (http://cfdocs.org/cftextarea).
