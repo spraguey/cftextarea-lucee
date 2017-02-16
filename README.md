@@ -18,20 +18,21 @@ Place textarea.cfc in your library/tag folder. You can do this at the server or 
 You use this just like the regular CFTEXTAREA tag in Adobe ColdFusion (http://cfdocs.org/cftextarea).
 
 ##Supported Attributes
-
-name:			{required:true,type:"string"}, 
-id:      	{required:false,type:"string",default:""},	
-value: 			{required:false,type:"string",default:""},	
-width: 			{required:false,type:"string",default:""}, 
-height:  			{required:false,type:"string",default:""},	
-style: 			{required:false,type:"string",default:""},	
-maxlength: 		{required:false,type:"string",default:""},	
-rows: 		{required:false,type:"string",default:""},	
-cols: 			{required:false,type:"string",default:""},		
-class: 		{required:false,type:"string",default:""},	
-required: 			{required:false,type:"string",default:""},	
-wrap: 			{required:false,type:"string",default:""}, 
+```html
+name:			{required:true,type:"string"}
+id:      	{required:false,type:"string",default:""}
+value: 			{required:false,type:"string",default:""}
+width: 			{required:false,type:"string",default:""} 
+height:  			{required:false,type:"string",default:""}	
+style: 			{required:false,type:"string",default:""}
+maxlength: 		{required:false,type:"string",default:""}	
+rows: 		{required:false,type:"string",default:""}
+cols: 			{required:false,type:"string",default:""}		
+class: 		{required:false,type:"string",default:""}	
+required: 			{required:false,type:"string",default:""}	
+wrap: 			{required:false,type:"string",default:""}
 placeholder: {required:false,type:"string",default:""} 
+```
 
 Also, if you pass in any other attribute, it will be appended to the &lt;textarea&gt; tag.
 
