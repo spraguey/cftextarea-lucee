@@ -11,7 +11,7 @@ This tag will not do richtext="yes" (ckeditor), and it will not do binding with 
 
 ## Installation
 
-Place textarea.cfc in your library/tag folder. You can do this at the server or context/site level. ('/lucee-server/context/library' for server, or '/WEB-INF/lucee/library' for a single site/context). Then, restart Lucee.
+Place textarea.cfc in your library/tag folder. You can do this at the server or context/site level. ('/lucee-server/context/library/tag' for server, or '/WEB-INF/lucee/library/tag' for a single site/context). Then, restart Lucee.
 
 ##Usage
 
